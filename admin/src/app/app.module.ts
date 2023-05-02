@@ -9,11 +9,12 @@ import { routing } from './app.routing';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
-    SidebarComponent
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
